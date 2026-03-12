@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: BookMyTicket
+  datasource:
+    url: jdbc:mysql://localhost:3306/booking?useSSL=false&serverTimezone=UTC
+    username: root
+    password: OctoberKushi@123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update   # options: none, validate, update, create, create-drop
+    show-sql: true       # logs SQL queries
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
