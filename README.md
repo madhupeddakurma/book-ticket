@@ -5,14 +5,13 @@ Book-my-ticket app
 A Spring Boot 4.0.3 application (Java 21) for managing seat booking in a ticketing system.
 
 ---
-
 # Overview
 This project demonstrates:
 - **Backend APIs** with Spring Boot
 - **CI/CD pipeline** from GitHub
 ---
 
-# Features
+ # Features
 - REST APIs for seat management (create, book, getBook,getAll)
 - Java 21 + Spring Boot 4.0.3
 - JPA/Hibernate integration
