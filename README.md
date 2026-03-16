@@ -13,7 +13,7 @@ This project demonstrates:
 ---
 
 # Features
-- REST APIs for seat management (create, book, list)
+- REST APIs for seat management (create, book, getBook,getAll)
 - Java 21 + Spring Boot 4.0.3
 - JPA/Hibernate integration
 
